@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimaryDark">#66FBFBFE</color>
+    <color name="colorAccent_old">@color/accentBright</color>
+    <color name="disabled">@color/black</color>
+    <color name="focusContrastPink">#e452B9</color>
+
+    <color name="colorSettingsTint">@color/black</color>
+    <color name="colorAccentSettings">@color/accentBright</color>
+
+    <color name="colorGradientStart">#a90742</color>
+    <color name="colorGradientCenter">#970772</color>
+    <color name="colorGradientEnd">#57076a</color>
+
+    <color name="colorProgressGradientStart">#FFFF1AD9</color>
+    <color name="colorProgressGradientCenter">#FFFF1AD9</color>
+    <color name="colorProgressGradientEnd">#FFFF1AD9</color>
+
+    <color name="colorInactiveGradientStart">#ff453440</color>
+    <color name="colorInactiveGradientCenter">#ff433446</color>
+    <color name="colorInactiveGradientEnd">#ff3b3445</color>
+
+    <color name="colorActiveGradientStart">#421c41</color>
+    <color name="colorActiveGradientCenter">#3e1c4d</color>
+    <color name="colorActiveGradientEnd">#271c44</color>
+
+    <color name="colorErase">@color/photonMagenta70</color>
+    <color name="colorErasePressed">@color/photonMagenta80</color>
+
+    <color name="colorMultitasking">@color/photonMagenta70</color>
+    <color name="colorMultitaskingPressed">@color/photonMagenta80</color>
+
+    <color name="colorSheetSessionBackground">#fff9f9fa</color>
+    <color name="colorSheetSessionBackgroundPressed">#ffededf0</color>
+
+    <color name="colorDotHighlight">@color/photonBlue40</color>
+
+    <color name="colorCrashAccent">@color/photonBlue40</color>
+
+    <color name="colorMenuBackground">#414141</color>
+    <color name="colorMenuBackgroundDark">#272727</color>
+
+    <color name="colorCursor">#ccffffff</color>
+
+    <color name="colorOverlay">#cc000000</color>
+
+    <color name="disabledText">#272727</color>
+
+    <color name="colorTextInactive">#80FFFFFF</color>
+    <color name="urlBarHintText">#ffbbbcc5</color>
+
+    <color name="snackbarBackground">#FF414146</color>
+    <color name="snackbarTextColor">#ffffffff</color>
+    <color name="snackbarActionText">@color/photonBlue50</color>
+
+<!--    <color name="statusBarBackground">#1D1133</color>-->
+    <color name="statusBarBackground">@color/white</color>
+
+    <color name="searchSuggestionsBackground">@color/photonInk80</color>
+
+    <color name="searchSuggestionPromptBackground">@color/photonInk80</color>
+    <color name="searchSuggestionPromptTitleColor">@color/photonLightGrey05</color>
+    <color name="searchSuggestionPromptSubtitleColor">@color/photonLightGrey05</color>
+    <color name="searchSuggestionPromptBorderColor">#342F6D</color>
+    <color name="searchSuggestionPromptButtonTextColor">#FF4AA2</color>
+
+    <color name="searchHintTextColor">#ffffffff</color>
+    <color name="searchHintBackgroundColor">@color/photonInk80</color>
+    <color name="urlBarInactiveBackgroundColor">#480f1126</color>
+
+    <color name="onboarding_indicator_default">#7FFFFFFF</color>
+    <color name="onboarding_indicator_selected">#FFFFFFFF</color>
+
+    <color name="dialogAccent">@color/focusContrastPink</color>
+
+    <color name="colorSession">@color/photonInk80</color>
+    <color name="colorActiveSession">#353852</color>
+    <color name="colorAction">@color/photonBlue50</color>
+
+    <color name="add_to_homescreen_text">#B3FFFFFF</color>
+    <color name="add_to_homescreen_icon_background">#4C0074</color>
+
+    <color name="find_in_page_background">#FFFFFF</color>
+    <color name="find_in_page_buttons_tint">#000000</color>
+    <color name="find_in_page_no_matches_color">#ff000000</color>
+    <color name="find_in_page_query_color">#ff000000</color>
+    <color name="find_in_page_query_hint_color">#ff000000</color>
+    <color name="find_in_page_results_color">#ff000000</color>
+
+    <color name="firefoxInstallHint">@color/focusContrastPink</color>
+
+    <color name="preference_row_selected">#353852</color>
+    <color name="preference_row_disabled">#B3313131</color>
+
+    <color name="scrollbarThumb">#b2b2b2b2</color>
+
+    <color name="doorhanger_link">#FF2AA1FE</color>
+    <color name="placeholder_active_grey">#222222</color>
+
+    <color name="contextMenuTitleTextColor">#99F9F9FA</color>
+    <color name="contextMenuSeparatorBackground">#1AF9F9FA</color>
+
+    <!-- Browser Menu items color palette -->
+    <color name="browser_menu_bg">@color/colorSecondary</color>
+    <color name="browser_menu_blocking_switch_bg">#1Af9f9fa</color>
+    <color name="browser_menu_trackers_blocked_label">@android:color/white</color>
+    <color name="browser_menu_request_desktop_separator">#1Af9f9fa</color>
+    <color name="browser_menu_trackers_blocked_subtitle">@color/photonGrey10</color>
+
+    <color name="images_removal_warning_background_color">#353852</color>
+    <color name="colorPoweredBy">@color/photonLightGrey05</color>
+
+    <!-- Add to Home screen dialog color palette -->
+    <color name="home_screen_dialog_bg">@color/white</color>
+    <color name="home_screen_dialog_button_text">@color/focusContrastPink</color>
+    <color name="home_screen_dialog_bg_tint">@color/accentBright</color>
+    <color name="home_screen_dialog_text">@color/black</color>
+    <color name="home_screen_dialog_highlight">@color/accentBright</color>
+
+    <color name="home_screen_dialog_warning_bg">#353852</color>
+    <color name="home_screen_dialog_warning_text">#96f9f9fa</color>
+
+    <color name="settings_summary_text">@color/black</color>
+    <color name="settings_whats_new">@color/accentBright</color>
+
+    <color name="colorPrimary">@color/black</color>
+    <color name="colorSecondary">@color/black</color>
+    <color name="menuBackground">@color/colorSecondary</color>
+    <color name="headerGradientStart">#2B2154</color>
+    <color name="headerGradientMiddle">#281D4C</color>
+    <color name="headerGradientEnd">#2A2051</color>
+    <color name="divider">#342F6D</color>
+    <color name="accentBright">#37adff</color>
+    <color name="accent">#C60084</color>
+    <color name="destructive">#FF6A75</color>
+    <color name="primaryText">@color/black</color>
+    <color name="primaryTextPrev">@color/white</color>
+    <color name="secondaryText">@color/black</color>
+
+    <!-- Preferences -->
+    <color name="preference_summary_text">@color/black</color>
+<!--    <color name="settings_background">#1D1133</color>-->
+    <color name="settings_background">@color/white</color>
+    <color name="preference_learn_more_link">@color/accentBright</color>
+    <color name="selected_search_engine">#FF4AA2</color>
+    <color name="colorButtonNormal">@color/black</color>
+
+    <!-- Add : sorizava -->
+    <color name="paletteBlack100">#FF000000</color>
+    <color name="paletteBlack87">#DE000000</color>
+    <color name="paletteBlack67">#AB000000</color>
+    <color name="paletteBlack64">#A3000000</color>
+    <color name="paletteBlack54">#8B000000</color>
+    <color name="paletteBlack50">#80000000</color>
+    <color name="paletteLightBlack100">#FF272727</color>
+    <color name="paletteLightBlack30">#4D272727</color>
+    <color name="paletteLightBlack20">#33272727</color>
+    <color name="paletteDarkGreyA100">#FF323232</color>
+    <color name="paletteDarkGreyB100">#FF2A2A2E</color>
+    <color name="paletteDarkGreyC100">#FF38383D</color>
+    <color name="paletteDarkGreyC60">#9938383D</color>
+    <color name="paletteDarkGreyC30">#4D38383D</color>
+    <color name="paletteDarkGreyC10">#1938383D</color>
+    <color name="paletteDarkGreyC0">#0038383D</color>
+    <color name="paletteDarkGreyD100">#FF737373</color>
+    <color name="paletteDarkGreyD50">#7F737373</color>
+    <color name="paletteDarkGreyE100">#B1B1B3</color>
+    <color name="paletteDarkGreyE54">#8AB1B1B3</color>
+    <color name="paletteDarkGreyE50">#80B1B1B3</color>
+    <color name="paletteDarkGreyE30">#4DB1B1B3</color>
+    <color name="paletteDarkGreyE16">#29B1B1B3</color>
+    <color name="paletteLightGreyA100">#FFE4E4E4</color>
+    <color name="paletteLightGreyB100">#FFF9F9FA</color>
+    <color name="paletteLightGreyC100">#FFEFF0F3</color>
+    <color name="paletteLightGreyD100">#FFFAFAFA</color>
+    <color name="paletteWhite100">#FFFFFFFF</color>
+    <color name="paletteWhite80">#CCFFFFFF</color>
+    <color name="paletteWhite70">#B3FFFFFF</color>
+    <color name="paletteWhite60">#99FFFFFF</color>
+    <color name="paletteWhite50">#7FFFFFFF</color>
+    <color name="paletteWhite30">#4DFFFFFF</color>
+    <color name="paletteWhite20">#33FFFFFF</color>
+    <color name="paletteWhite10">#19FFFFFF</color>
+    <color name="paletteWhite5">#0DFFFFFF</color>
+    <color name="paletteDarkBlueA100">#FF253058</color>
+    <color name="paletteDarkBlueB100">#FF1E2950</color>
+    <color name="paletteDarkBlueC100">#FF0A84FF</color>
+    <color name="paletteDarkBlueC54">#8A0A84FF</color>
+    <color name="paletteDarkBlueC30">#4D0A84FF</color>
+    <color name="paletteDarkBlueC20">#330A84FF</color>
+    <color name="paletteDarkBlueC16">#290A84FF</color>
+    <color name="paletteLightBlue100">#FF41B7E6</color>
+    <color name="palettePurple100">#FFC85DEF</color>
+    <color name="palettePurple50">#80C85DEF</color>
+    <color name="palettePeach100">#FFEC1C52</color>
+
+    <color name="colorDownloadText">@color/paletteLightBlack100</color>
+    <color name="colorDownloadSubText">@color/paletteDarkGreyD100</color>
+    <color name="colorDownloadBackground">@color/paletteLightGreyB100</color>
+
+    <color name="editBookmarkInputDisabled">#7F999EA1</color>
+    <color name="editBookmarkInputActive">@color/black</color>
+    <color name="editBookmarkInputInactive">#FF999EA1</color>
+
+    <color name="editBookmarkLabelDisabled">@color/paletteDarkGreyD50</color>
+    <color name="editBookmarkLabelActive">@color/black</color>
+    <color name="editBookmarkLabelInactive">@color/black</color>
+
+    <color name="editBookmarkOutlineDisabled">@color/paletteLightBlack20</color>
+    <color name="editBookmarkOutlineActive">@color/black</color>
+    <color name="editBookmarkOutlineInactive">@color/black</color>
+
+    <color name="bookmarkEditToolbarBackground">@color/paletteLightBlue100</color>
+    <color name="bookmarkEditToolbarText">@color/grey</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="golden">#dab068</color>
+    <color name="golden_pressed">#7fd3b167</color>
+    <color name="grey">#8f8e93</color>
+    <color name="darkgray">#333333</color>
+    <color name="lightgray">#f0f0f0</color>
+
+
+    <color name="background">#f8f8f8</color>
+    <color name="background_edit">@color/white</color>
+
+
+
+    <color name="grey_transparent">#e0e0e0</color>
+
+    <color name="item_normal_color">@android:color/darker_gray</color>
+    <color name="item_tint_color">@android:color/holo_blue_light</color>
+
+    <color name="button_deep_teal">#ff00787e</color>
+
+    <color name="content_bg">@color/white</color>
+    <!--
+    <color name="divider">@color/photonInk80</color>
+    -->
+
+    <color name="toast_bg">#ee404040</color>
+
+    <color name="setting_bg">@color/white</color>
+    <color name="setting_list_bg">@color/white</color>
+    <color name="setting_list_header_text_color">@color/black</color>
+    <color name="setting_list_item_bg">@color/white</color>
+    <color name="setting_list_item_text_color">@color/black</color>
+
+
+    <!-- Settings -->
+    <color name="trackingProtectionSheetBackground" tools:ignore="MissingDefaultResource">@color/black</color>
+    <color name="primaryTextColor" tools:ignore="MissingDefaultResource">@color/black</color>
+    <color name="toolbarUrlDarkBackground" tools:ignore="MissingDefaultResource">#1D1133</color>
+    <color name="toolbarUrlLightBackground" tools:ignore="MissingDefaultResource">#FBFBFE</color>
+    <color name="setting_underline">#A5A5A5</color>
+
+    <!-- Home Tips -->
+    <color name="inactive_dot_background" tools:ignore="MissingDefaultResource">#66FBFBFE</color>
+    <color name="active_dot_background" tools:ignore="MissingDefaultResource">#FBFBFE</color>
+    <color name="tip_text_color" tools:ignore="MissingDefaultResource">#BFBFC9</color>
+    <color name="tip_deeplink_color" tools:ignore="MissingDefaultResource">#cf3e8c</color>
+
+
+    <!-- Toolbar -->
+    <color name="toolbar_color" tools:ignore="MissingDefaultResource">@color/black</color>
+    <!-- Temporary colors until light theme it will be implemented -->
+    <color name="enabled_toolbar_button_color" tools:ignore="MissingDefaultResource">#000000</color>
+
+    <color name="pink">#FF819A</color>
+
+    <color name="tab_text_normal">@color/primaryText</color>
+    <color name="tab_text_selected">@color/item_tint_color</color>
+
+    <!-- Main -->
+    <color name="background_color">@color/background</color>
+
+
+    <!-- Browser arrow -->
+    <color name="colorOnSecondary">#ee404040</color>
+
+
+
+
+</resources>

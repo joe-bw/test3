@@ -1,0 +1,78 @@
+{
+  "project_info": {
+    "project_number": "405909970891",
+    "project_id": "earzoom-250d8",
+    "storage_bucket": "earzoom-250d8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:405909970891:android:4f1bff97bd8c1db70fa04e",
+        "android_client_info": {
+          "package_name": "org.mozilla.sorizava.focus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "405909970891-189rud6qt96ieih0k620t84b3meccl2l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.mozilla.sorizava.focus",
+            "certificate_hash": "03e177f31977d2ea732ebc3f4941ea2ea44585d0"
+          }
+        },
+        {
+          "client_id": "405909970891-fsmf4b872bu1niciu2brn1kvug87hgnr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.mozilla.sorizava.focus",
+            "certificate_hash": "f9803e69b0b63c2c1a539a94c7f6e041c8ce23c8"
+          }
+        },
+        {
+          "client_id": "405909970891-ng4861qdsanphnsnc5pbk6i8gv1663st.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.mozilla.sorizava.focus",
+            "certificate_hash": "36f7ce2a84fb8162e4bbe3740acf02d469c15a9f"
+          }
+        },
+        {
+          "client_id": "405909970891-tir5qbkpppmvkrcapuf8t7eibvggtf5g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.mozilla.sorizava.focus",
+            "certificate_hash": "c1b8612a318d357cfe7e4e38d27b0911b9f49464"
+          }
+        },
+        {
+          "client_id": "405909970891-s6tpu995jihd3u8jo8les032qme2io89.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgQSrHE2_7Q2c36EmctClnqvTOG_Se8dM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "405909970891-4cjv4dnrnu77gcq3egpjkhjgk41eouni.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "405909970891-c1lrs2aomburf54kdeat5t81qb27cerb.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "kr.co.sorizava.captionbrowser2"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

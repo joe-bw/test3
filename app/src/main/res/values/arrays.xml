@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<resources>
+    <array name="viewsToHide">
+        <item>@id/erase</item>
+        <item>@id/tabs</item>
+    </array>
+
+    <array name="subtitle_default_colors">
+        <item>#ffffff</item>
+        <item>#fffafa</item>
+        <item>#eee9e9</item>
+        <item>#faebd7</item>
+        <item>#ffff00</item>
+
+        <item>@color/color1</item>
+        <item>@color/color2</item>
+        <item>@color/color3</item>
+        <item>@color/color4</item>
+        <item>@color/color5</item>
+
+        <item>@color/color6</item>
+        <item>@color/color7</item>
+        <item>@color/color8</item>
+        <item>@color/color9</item>
+        <item>@color/color10</item>
+
+        <item>@color/color11</item>
+        <item>@color/color12</item>
+        <item>@color/color13</item>
+        <item>@color/color14</item>
+        <item>@color/color15</item>
+    </array>
+
+
+    <string-array name="subtitle_font_list">
+        <item>fonts/NanumMyeongjo-Bold.ttf</item>
+        <item>fonts/HangeulNuri-Bold.ttf</item>
+        <item>fonts/sn_starstar.ttf</item>
+        <item>fonts/DoHyeon-Regular.ttf</item>
+    </string-array>
+
+    <array name="font_size_setting_5">
+        <item>더 작게</item>
+        <item>작게</item>
+        <item>보통</item>
+        <item>크게</item>
+        <item>더 크게</item>
+    </array>
+
+</resources>

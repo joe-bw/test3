@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item type="drawable" name="action_bar">@color/colorPrimary</item>
+    <item type="drawable" name="action_bar_preview">#b01b2125</item>
+    <item type="drawable" name="common_btn_normal">@color/golden</item>
+    <item type="drawable" name="download_loading">#ffebebeb</item>
+    <item type="drawable" name="golden">@color/golden</item>
+    <item type="drawable" name="notification_template_icon_bg">#3333b5e5</item>
+    <item type="drawable" name="notification_template_icon_low_bg">#0cffffff</item>
+    <item type="drawable" name="share_item_selected">#3fffffff</item>
+    <item type="drawable" name="white">@color/white</item>
+    <item type="drawable" name="background_color">@color/background_color</item>
+</resources>

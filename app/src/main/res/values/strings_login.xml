@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+
+<!--    <string name="kakao_app_key" translatable="false">c1bf53091cdf07a71c4a4e8167fbc58b</string> -->
+    <string name="kakao_app_key" translatable="false">4add90c255b4c11f2185dbd4860ebbb6</string>
+<!--    <string name="kakao_app_key_for_manifest" translatable="false">kakaoc1bf53091cdf07a71c4a4e8167fbc58b</string>-->
+    <string name="kakao_app_key_for_manifest" translatable="false">kakao4add90c255b4c11f2185dbd4860ebbb6</string>
+
+    <string name="naver_client_id" translatable="false">818m4FSrrywxHmbGKjaJ</string>
+    <string name="naver_client_secret" translatable="false">eoiw3UEXdh</string>
+    <string name="naver_client_name" translatable="false">Earzoom</string>
+
+<!--    <string name="facebook_app_id" translatable="false">1800718190107388</string>-->
+    <string name="facebook_app_id" translatable="false">6030372280340415</string>
+
+<!--    <string name="fb_login_protocol_scheme" translatable="false">fb1800718190107388</string>-->
+    <string name="fb_login_protocol_scheme" translatable="false">fb6030372280340415</string>
+
+    <string name="facebook_client_token">c8c2841878480273fdcbb4d2d4cec1e1</string>
+
+</resources>
+

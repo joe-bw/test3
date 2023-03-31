@@ -1,0 +1,198 @@
+[
+  {
+    "bookmarkId": 1,
+    "position": 0,
+    "imgName": "ic_main_kbs",
+    "name": "KBS",
+    "url": "http://www.kbs.co.kr/"
+  },
+  {
+    "bookmarkId": 2,
+    "position": 1,
+    "imgName": "ic_main_mbc",
+    "name": "MBC",
+    "url": "http://www.imbc.com/"
+  },
+  {
+    "bookmarkId": 3,
+    "position": 2,
+    "imgName": "ic_main_sbs",
+    "name": "SBS",
+    "url": "http://www.sbs.co.kr"
+  },
+  {
+    "bookmarkId": 4,
+    "position": 3,
+    "imgName": "ic_main_ytn",
+    "name": "YTN",
+    "url": "http://www.ytn.co.kr/"
+  },
+  {
+    "bookmarkId": 5,
+    "position": 4,
+    "imgName": "ic_main_yeonhap",
+    "name": "연합뉴스",
+    "url": "https://yna.co.kr/"
+  },
+  {
+    "bookmarkId": 6,
+    "position": 5,
+    "imgName": "ic_main_jtbc",
+    "name": "JTBC",
+    "url": "http://jtbc.joins.com/"
+  },
+  {
+    "bookmarkId": 7,
+    "position": 6,
+    "imgName": "ic_main_mbn",
+    "name": "MBN",
+    "url": "http://www.mbn.co.kr/"
+  },
+  {
+    "bookmarkId": 8,
+    "position": 7,
+    "imgName": "ic_main_youtube",
+    "name": "YouTube",
+    "url": "http://www.youtube.com/"
+  },
+  {
+    "bookmarkId": 9,
+    "position": 8,
+    "imgName": "ic_main_navertv",
+    "name": "Naver TV",
+    "url": "https://m.tv.naver.com/"
+  },
+  {
+    "bookmarkId": 10,
+    "position": 9,
+    "imgName": "ic_main_ebs",
+    "name": "EBS",
+    "url": "https://www.ebs.co.kr/"
+  },
+  {
+    "bookmarkId": 11,
+    "position": 10,
+    "imgName": "ic_main_tbc",
+    "name": "대구방송",
+    "url": "https://www.tbc.co.kr/"
+  },
+  {
+    "bookmarkId": 12,
+    "position": 11,
+    "imgName": "ic_main_tjb",
+    "name": "대전방송",
+    "url": "http://www.tjb.co.kr/"
+  },
+  {
+    "bookmarkId": 13,
+    "position": 12,
+    "imgName": "ic_main_kbc",
+    "name": "광주방송",
+    "url": "http://www.ikbc.co.kr/kor"
+  },
+  {
+    "bookmarkId": 14,
+    "position": 13,
+    "imgName": "ic_main_ccs",
+    "name": "충북방송",
+    "url": "http://ccstv.co.kr/pMain.php"
+  },
+  {
+    "bookmarkId": 15,
+    "position": 14,
+    "imgName": "ic_main_ubc",
+    "name": "울산방송",
+    "url": "http://web.ubc.co.kr/wp/onair_tvfm"
+  },
+  {
+    "bookmarkId": 16,
+    "position": 15,
+    "imgName": "ic_main_jtv",
+    "name": "전주방송",
+    "url": "https://www.jtv.co.kr/2021/"
+  },
+  {
+    "bookmarkId": 17,
+    "position": 16,
+    "imgName": "ic_main_cjb",
+    "name": "청주방송",
+    "url": "https://www.cjb.co.kr/home/main.php"
+  },
+  {
+    "bookmarkId": 18,
+    "position": 17,
+    "imgName": "ic_main_jibs",
+    "name": "제주방송",
+    "url": "https://www.jibs.co.kr/"
+  },
+  {
+    "bookmarkId": 19,
+    "position": 18,
+    "imgName": "ic_main_kangwon",
+    "name": "강원민방",
+    "url": "http://www.g1tv.co.kr/"
+  },
+  {
+    "bookmarkId": 20,
+    "position": 19,
+    "imgName": "ic_main_obs",
+    "name": "OBS",
+    "url": "https://www.obs.co.kr/"
+  },
+  {
+    "bookmarkId": 21,
+    "position": 20,
+    "imgName": "ic_main_tvchosun",
+    "name": "TV조선",
+    "url": "http://news.tvchosun.com/"
+  },
+  {
+    "bookmarkId": 22,
+    "position": 21,
+    "imgName": "ic_main_channel_a",
+    "name": "채널A",
+    "url": "http://www.ichannela.com/main/main.do"
+  },
+  {
+    "bookmarkId": 23,
+    "position": 22,
+    "imgName": "ic_main_seokyung",
+    "name": "서경방송",
+    "url": "https://www.iscs.co.kr/ch8/"
+  },
+  {
+    "bookmarkId": 24,
+    "position": 23,
+    "imgName": "ic_main_mbc_plus",
+    "name": "MBC플러스",
+    "url": "https://www.mbcplus.com/web/index.do"
+  },
+  {
+    "bookmarkId": 25,
+    "position": 24,
+    "imgName": "ic_main_gukak",
+    "name": "국악방송",
+    "url": "https://www.igbf.kr/gugak_web/main/"
+  },
+  {
+    "bookmarkId": 26,
+    "position": 25,
+    "imgName": "ic_main_arirang",
+    "name": "아리랑tv",
+    "url": "https://www.arirang.com/index.asp"
+  },
+  {
+    "bookmarkId": 27,
+    "position": 26,
+    "imgName": "ic_main_economy",
+    "name": "한국경제TV",
+    "url": "https://www.wowtv.co.kr/Broad/OnAir/Index?menuSeq=643"
+  },
+  {
+    "bookmarkId": 28,
+    "position": 27,
+    "imgName": "ic_main_ktv",
+    "name": "ktv 국민방송",
+    "url": "https://www.ktv.go.kr/"
+  }
+]

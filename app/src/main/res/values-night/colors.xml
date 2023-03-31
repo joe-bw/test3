@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="snackbarBackground">#2E255D</color>
+
+    <color name="colorPoweredBy">#271948</color>
+    <color name="colorPrimaryDark">#6c3b6e</color>
+    <color name="colorAccent_old">@color/focusContrastPink</color>
+    <color name="focusContrastPink">#e452B9</color>
+
+    <color name="background">#484850</color>
+    <color name="background_edit">#484850</color>
+
+    <color name="colorSettingsTint">@color/black</color>
+    <color name="colorAccentSettings">@color/accentBright</color>
+
+    <color name="colorGradientStart">#a90742</color>
+    <color name="colorGradientCenter">#970772</color>
+    <color name="colorGradientEnd">#57076a</color>
+
+    <color name="colorProgressGradientStart">#FF9400FF</color>
+    <color name="colorProgressGradientCenter">#FFFF4AA2</color>
+    <color name="colorProgressGradientEnd">#FFFF1AD9</color>
+
+    <!-- Find in page bar color palette -->
+    <color name="find_in_page_background">#1D1133</color>
+    <color name="find_in_page_buttons_tint">#FFFFFF</color>
+    <color name="find_in_page_no_matches_color">#FFFFFF</color>
+    <color name="find_in_page_query_color">#FFFFFF</color>
+    <color name="find_in_page_query_hint_color">#FFFFFF</color>
+    <color name="find_in_page_results_color">#FFFFFF</color>
+
+    <!-- Add to Home screen dialog color palette -->
+    <color name="home_screen_dialog_bg">@color/colorSecondary</color>
+    <color name="images_removal_warning_background_color">#271948</color>
+    <color name="home_screen_dialog_bg_tint">@color/accentBright</color>
+    <color name="home_screen_dialog_highlight">@color/black</color>
+    <color name="home_screen_dialog_button_text">@color/accentBright</color>
+
+    <!-- Settings -->
+    <color name="settings_summary_text">@color/black</color>
+    <color name="settings_whats_new">@color/accentBright</color>
+
+    <color name="trackingProtectionSheetBackground" tools:ignore="MissingDefaultResource">#1D1133</color>
+    <color name="primaryTextColor" tools:ignore="MissingDefaultResource">#FBFBFE</color>
+
+    <color name="colorPrimary">@color/white</color>
+    <color name="colorSecondary">#342F6D</color>
+    <color name="menuBackground">@color/colorSecondary</color>
+    <color name="toolbarUrlDarkBackground" tools:ignore="MissingDefaultResource">#1D1133</color>
+    <color name="toolbarUrlLightBackground" tools:ignore="MissingDefaultResource">#FBFBFE</color>
+    <color name="headerGradientStart">#2B2154</color>
+    <color name="headerGradientMiddle">#281D4C</color>
+    <color name="headerGradientEnd">#2A2051</color>
+    <color name="divider">#342F6D</color>
+    <color name="accentBright">#37adff</color>
+    <color name="accent">#C60084</color>
+    <color name="destructive">#FF6A75</color>
+    <color name="primaryText">@color/white</color>
+    <color name="primaryTextPrev">@color/black</color>
+    <color name="secondaryText">@color/photonLightGrey50</color>
+
+    <!-- Home Tips -->
+    <color name="inactive_dot_background" tools:ignore="MissingDefaultResource">#66FBFBFE</color>
+    <color name="active_dot_background" tools:ignore="MissingDefaultResource">#FBFBFE</color>
+    <color name="tip_text_color" tools:ignore="MissingDefaultResource">#BFBFC9</color>
+    <color name="tip_deeplink_color" tools:ignore="MissingDefaultResource">#cf3e8c</color>
+
+    <!-- Toolbar -->
+    <color name="toolbar_color" tools:ignore="MissingDefaultResource">#271948</color>
+    <!-- Temporary colors until light theme it will be implemented -->
+    <color name="enabled_toolbar_button_color" tools:ignore="MissingDefaultResource">#000000</color>
+
+    <!-- Main -->
+    <color name="background_color">@color/background</color>
+
+
+    <!-- Browser arrow -->
+    <color name="colorOnSecondary">#ee404040</color>
+</resources>

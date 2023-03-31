@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+20220928 cbw 로딩 화면 추가
+android:drawable="@drawable/ic_settings_black_24dp_foreground"
+-->
+<animated-rotate
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:drawable="@drawable/ic_setting"
+    android:pivotX="50%"
+    android:pivotY="50%">
+</animated-rotate>

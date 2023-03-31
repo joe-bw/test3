@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="bookmark_list">
+        <item>@string/kbs</item>
+        <item>@string/mbc</item>
+        <item>@string/sbs</item>
+        <item>@string/ytn</item>
+        <item>@string/yeonhap</item>
+        <item>@string/jtbc</item>
+        <item>@string/mbn</item>
+        <item>@string/youtube</item>
+        <item>@string/naver</item>
+
+    </array>
+
+    <string name="kbs">KBS</string>
+    <string name="mbc">MBC</string>
+    <string name="sbs">SBS</string>
+    <string name="ytn">YTN</string>
+    <string name="yeonhap">연합뉴스TV</string>
+    <string name="jtbc">JTBC</string>
+    <string name="mbn">MBN</string>
+    <string name="youtube">YouTube</string>
+    <string name="naver">Naver TV</string>
+
+    <string name="ebs">EBS</string>
+    <string name="tbc">대구방송</string>
+    <string name="tjb">대전방송</string>
+    <string name="ikbc">광주방송</string>
+    <string name="ccstv">충북방송</string>
+    <string name="ubc">울산방송</string>
+    <string name="jtv">전주방송</string>
+    <string name="cjb">청주방송</string>
+    <string name="jibs">제주방송</string>
+    <string name="g1tv">강원민방</string>
+    <string name="obs">OBS</string>
+    <string name="tvchosun">TV조선</string>
+    <string name="channela">채널A</string>
+    <string name="iscs">서경방송</string>
+    <string name="mbcplus">MBC플러스</string>
+    <string name="igbf">국악방송</string>
+    <string name="arirang">아리랑TV</string>
+    <string name="wowtv">한국경제TV</string>
+    <string name="ktv">Ktv 국민방송</string>
+
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?><!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/dialog_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:text="@string/setting_browser_add_main_app"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/addtobookmark_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:elevation="2dp"
+        android:src="@drawable/ic_launcher_earzoom2"
+        app:layout_constraintStart_toStartOf="@id/dialog_title"
+        app:layout_constraintTop_toBottomOf="@id/dialog_title" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/edit_title"
+        style="@style/AddToHomeScreenTitle"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        app:layout_constraintBottom_toBottomOf="@id/addtobookmark_icon"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/addtobookmark_icon"
+        app:layout_constraintTop_toTopOf="@id/addtobookmark_icon" />
+
+    <Button
+        android:id="@+id/addtobookmark_dialog_add"
+        style="@style/ButtonStyle"
+        android:layout_marginTop="36dp"
+        android:contentDescription="@string/dialog_addtohomescreen_action_add"
+        android:text="@string/dialog_addtohomescreen_action_yes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/edit_title" />
+
+    <Button
+        android:id="@+id/addtobookmark_dialog_cancel"
+        style="@style/ButtonStyle"
+        android:contentDescription="@string/dialog_addtohomescreen_action_cancel"
+        android:text="@string/dialog_addtohomescreen_action_no"
+        app:layout_constraintEnd_toStartOf="@id/addtobookmark_dialog_add"
+        app:layout_constraintTop_toTopOf="@id/addtobookmark_dialog_add" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

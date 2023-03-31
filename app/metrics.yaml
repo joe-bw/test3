@@ -1,0 +1,377 @@
+# This Source Code Form is subject to the terms of the Mozilla Public
+# License, v. 2.0. If a copy of the MPL was not distributed with this
+# file, You can obtain one at http://mozilla.org/MPL/2.0/.
+---
+$schema: moz://mozilla.org/schemas/glean/metrics/2-0-0
+
+browser:
+  is_default:
+    type: boolean
+    lifetime: application
+    description: |
+      Is Focus the default browser? This is true only if the user
+      changes the default browser through the app settings.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/4545
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5065#issuecomment-894328647
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-07-01"
+  default_search_engine:
+    type: string
+    lifetime: application
+    description: |
+      A string containing the default search engine name.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/4545
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5065#issuecomment-894328647
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-07-01"
+  locale_override:
+    type: string
+    lifetime: application
+    description: |
+      The locale that differs from the system locale if a user
+      specifically overrides it for the app.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/4545
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5065#issuecomment-894328647
+    data_sensitivity:
+      - technical
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-07-01"
+
+legacy_ids:
+  client_id:
+    type: uuid
+    description: |
+      Sets the legacy client ID as part of the deletion-reqest ping.
+    send_in_pings:
+      - deletion-request
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/4545
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/issues/4901
+    notification_emails:
+      - jalmeida@mozilla.com
+      - android-probes@mozilla.com
+    expires: never
+
+browser.search:
+  with_ads:
+    type: labeled_counter
+    description: |
+      Records counts of SERP pages with adverts displayed.
+      The key format is `<provider-name>`.
+    send_in_pings:
+      - metrics
+    bugs:
+      - https://github.com/mozilla-mobile/fenix/issues/4967
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/4968#issuecomment-879256443
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-07-01"
+  ad_clicks:
+    type: labeled_counter
+    description: |
+      Records clicks of adverts on SERP pages.
+      The key format is `<provider-name>`.
+    send_in_pings:
+      - metrics
+    bugs:
+      - https://github.com/mozilla-mobile/fenix/issues/4967
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/4968#issuecomment-879256443
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-07-01"
+  in_content:
+    type: labeled_counter
+    description: |
+      Records the type of interaction a user has on SERP pages.
+    send_in_pings:
+      - metrics
+    bugs:
+      - https://github.com/mozilla-mobile/fenix/issues/4967
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/4968#issuecomment-879256443
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-07-01"
+
+mozilla_products:
+  has_fenix_installed:
+    type: boolean
+    lifetime: application
+    description: |
+       If Fenix is installed on the users's device.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5295
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5303
+    data_sensitivity:
+      - technical
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-09-01"
+  is_fenix_default_browser:
+    type: boolean
+    lifetime: application
+    description: |
+      Fenix is the default browser on user's device
+    send_in_pings:
+      - metrics
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5295
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5303
+    data_sensitivity:
+      - technical
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-02-01"
+
+settings_screen:
+  whats_new_tapped:
+    type: counter
+    description: |
+      A counter that indicates how many times a user has clicked
+      the whats new button from settings screen.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5058
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5096
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-08-17"
+  autocomplete_domain_added:
+    type: counter
+    description: |
+      A counter that indicates how many times a user has added
+      a website to the autocomplete list.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5059
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5184
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-08-17"
+
+shortcuts:
+  shortcuts_on_home_number:
+    type: quantity
+    description: |
+      The number of shortcuts the user has on home screen,
+      0, 1, 2, 3 or 4 (maximum)
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5056
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5189
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-08-20"
+    unit: shortcut(s)
+  shortcut_opened_counter:
+    type: counter
+    description: |
+      A counter that indicates how many times a user has opened
+      a website from a shortcut in the home screen.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5056
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5189
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-08-20"
+  shortcut_added_counter:
+    type: counter
+    description: |
+      A counter that indicates how many times a user has added
+      a website to shortcuts.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5056
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5189
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-08-20"
+  shortcut_removed_counter:
+    type: labeled_counter
+    description: |
+      A counter that indicates how many times a user has removed
+      a website from shortcuts.
+      It also indicates the screen it was removed from, home or browser.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5056
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5189
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-08-20"
+    labels:
+      - removed_from_browser_menu
+      - removed_from_home_screen
+tracking_protection:
+  toolbar_shield_clicked:
+    type: counter
+    description: |
+      A counter that indicates how many times a user has opened
+      the tracking protection settings panel from the toolbar.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5057
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5163
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-08-17"
+
+  tracking_protection_changed:
+    type: event
+    description: |
+      The user has changed the setting for enhanced tracking protection.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5057
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5163
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-08-17"
+    extra_keys:
+      is_enabled:
+        description: The new setting for ETP, true for ON, false for OFF
+        type: boolean
+
+  has_ever_changed_etp:
+    type: boolean
+    description: |
+      The user has changed the setting for enhanced tracking protection
+      at least once.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5057
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5163
+    data_sensitivity:
+      - interaction
+    lifetime: user
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-08-17"
+
+  tracker_setting_changed:
+    type: event
+    description: |
+      The user has changed the advertising tracker protection state.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5057
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5163
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-08-17"
+    extra_keys:
+      source_of_change:
+        description: The source of interaction, "Panel" or "Settings"
+        type: string
+      tracker_changed:
+        description: |
+          The tracker changed, "Advertising", "Analytics", "Social", "Content"
+        type: string
+      is_enabled:
+        description: The new setting for tracker, true for ON, false for OFF
+        type: boolean
+
+  has_social_blocked:
+    type: boolean
+    description: |
+      The user has changed the setting for enhanced tracking protection
+      at least once.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5057
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5163
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-08-17"
+
+  has_advertising_blocked:
+    type: boolean
+    description: |
+      The user has changed the setting for enhanced tracking protection
+      at least once.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5057
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5163
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-08-17"
+
+  has_analytics_blocked:
+    type: boolean
+    description: |
+      The user has changed the setting for enhanced tracking protection
+      at least once.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5057
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5163
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-08-17"
+
+  has_content_blocked:
+    type: boolean
+    description: |
+      The user has changed the setting for enhanced tracking protection
+      at least once.
+    bugs:
+      - https://github.com/mozilla-mobile/focus-android/issues/5057
+    data_reviews:
+      - https://github.com/mozilla-mobile/focus-android/pull/5163
+    data_sensitivity:
+      - interaction
+    notification_emails:
+      - android-probes@mozilla.com
+    expires: "2022-08-17"

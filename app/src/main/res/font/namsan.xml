@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Create by jhong on 2022. 7. 12.
+  ~ Copyright(c) 2022. Sorizava. All rights reserved.
+  -->
+
+<font-family xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <font
+        android:font="@font/nanum_square_ac_r"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font="@font/nanum_square_ac_r"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <font
+        android:font="@font/seoul_namsan_b"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font="@font/seoul_namsan_b"
+        app:fontStyle="normal"
+        app:fontWeight="400" />
+
+    <font
+        android:font="@font/seoul_namsan_eb"
+        android:fontStyle="normal"
+        android:fontWeight="400"
+        app:font="@font/seoul_namsan_eb"
+        app:fontStyle="normal"
+        app:fontWeight="400"/>
+
+</font-family>

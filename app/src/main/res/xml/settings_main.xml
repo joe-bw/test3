@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?><!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.preference.Preference
+        android:key="@string/pref_key_asr_main_caption_screen"
+        android:layout="@layout/focus_preference"
+        android:summary="@string/preference_asr_caption_summary"
+        android:title="@string/preference_category_asr_caption"
+        app:iconSpaceReserved="false" />
+
+    <androidx.preference.Preference
+        android:key="@string/pref_key_asr_main_bookmark_screen"
+        android:layout="@layout/focus_preference"
+        android:title="@string/menu_bookmarks"
+        app:iconSpaceReserved="false" />
+
+    <androidx.preference.Preference
+        android:key="@string/pref_key_general_screen"
+        android:layout="@layout/focus_preference"
+        android:summary="@string/preference_general_summary"
+        android:title="@string/preference_category_general"
+        app:iconSpaceReserved="false" />
+
+    <androidx.preference.Preference
+        android:key="@string/pref_key_search_screen"
+        android:layout="@layout/focus_preference"
+        android:summary="@string/preference_search_summary"
+        android:title="@string/preference_category_search"
+        app:iconSpaceReserved="false" />
+
+    <androidx.preference.Preference
+        android:key="@string/pref_key_asr_main_system_screen"
+        android:layout="@layout/focus_preference_just_underline"
+        android:title="@string/setting_main_system_title"
+        app:iconSpaceReserved="false" />
+
+    <androidx.preference.Preference
+        android:key="@string/pref_key_asr_main_privacy_screen"
+        android:layout="@layout/focus_preference"
+        android:title="@string/menu_privacy_policy"
+        app:iconSpaceReserved="false" />
+
+    <androidx.preference.Preference
+        android:key="@string/pref_key_asr_main_helper_screen"
+        android:layout="@layout/focus_preference_just_underline"
+        android:title="@string/setting_main_helper_title"
+        app:iconSpaceReserved="false" />
+
+    <androidx.preference.Preference
+        android:key="@string/pref_key_asr_main_copyright_screen"
+        android:layout="@layout/setting_main_copyright_preference"
+        app:iconSpaceReserved="false" />
+
+</androidx.preference.PreferenceScreen>

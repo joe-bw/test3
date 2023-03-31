@@ -1,0 +1,65 @@
+[
+  {
+    "bookmarkId": 1,
+    "position": 0,
+    "imgName": "ic_main_kbs",
+    "name": "KBS",
+    "url": "http://www.kbs.co.kr/"
+  },
+  {
+    "bookmarkId": 2,
+    "position": 1,
+    "imgName": "ic_main_mbc",
+    "name": "MBC",
+    "url": "http://www.imbc.com/"
+  },
+  {
+    "bookmarkId": 3,
+    "position": 2,
+    "imgName": "ic_main_sbs",
+    "name": "SBS",
+    "url": "http://www.sbs.co.kr"
+  },
+  {
+    "bookmarkId": 4,
+    "position": 3,
+    "imgName": "ic_main_ytn",
+    "name": "YTN",
+    "url": "http://www.ytn.co.kr/"
+  },
+  {
+    "bookmarkId": 5,
+    "position": 4,
+    "imgName": "ic_main_yeonhap",
+    "name": "연합뉴스",
+    "url": "https://yna.co.kr/"
+  },
+  {
+    "bookmarkId": 6,
+    "position": 5,
+    "imgName": "ic_main_jtbc",
+    "name": "JTBC",
+    "url": "http://jtbc.joins.com/"
+  },
+  {
+    "bookmarkId": 7,
+    "position": 6,
+    "imgName": "ic_main_mbn",
+    "name": "MBN",
+    "url": "http://www.mbn.co.kr/"
+  },
+  {
+    "bookmarkId": 8,
+    "position": 7,
+    "imgName": "ic_main_youtube",
+    "name": "YouTube",
+    "url": "http://www.youtube.com/"
+  },
+  {
+    "bookmarkId": 9,
+    "position": 8,
+    "imgName": "ic_main_navertv",
+    "name": "Naver TV",
+    "url": "https://m.tv.naver.com/"
+  }
+]

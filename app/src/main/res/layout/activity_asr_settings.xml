@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/setting_bg">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"/>
+
+    <!-- //*******************************************************************//-->
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <!-- //*****  음성인식 서버 설정 *****// -->
+            <LinearLayout
+                android:id="@+id/asr_server_setting_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:layout_marginTop="18dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="@string/setting_asr_server_header"
+                    android:textSize="12sp"
+                    android:textColor="@color/settings_summary_text" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:id="@+id/asr_server_edit_setting_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:clickable="true"
+                    android:background="@color/setting_list_item_bg"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:textSize="16sp"
+                        android:text="@string/setting_asr_server"
+                        android:textColor="@color/setting_list_item_text_color"/>
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/list_arrow_xml_gray" />
+                </LinearLayout>
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:id="@+id/oauth_server_edit_setting_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:clickable="true"
+                    android:background="@color/setting_list_item_bg"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:textSize="16sp"
+                        android:textColor="@color/setting_list_item_text_color"
+                        android:background="@android:color/transparent"
+                        android:text="@string/setting_asr_auth_url_title" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/list_arrow_xml_gray" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/divider" />
+            </LinearLayout>
+            <!-- //*****  음성인식 서버 설정 *****// -->
+
+
+            <!-- //*****  자막 설정 *****// -->
+            <LinearLayout
+                android:id="@+id/subtitle_setting_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/asr_server_setting_layout"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="@string/setting_subtitle_header"
+                    android:textSize="12sp"
+                    android:textColor="@color/setting_list_header_text_color" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:id="@+id/subtitle_setting_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:clickable="true"
+                    android:background="@color/setting_list_item_bg"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:textSize="16sp"
+                        android:textColor="@color/setting_list_item_text_color"
+                        android:background="@android:color/transparent"
+                        android:text="@string/setting_subtitle" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="20dp"
+                        android:src="@drawable/list_arrow_xml_gray" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/divider" />
+
+            </LinearLayout>
+            <!-- //*****  자막 설정 *****// -->
+
+            <!-- //*****  앱 정보 *****// -->
+            <LinearLayout
+                android:id="@+id/app_info_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/subtitle_setting_layout"
+                android:layout_marginTop="12dp"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:layout_marginTop="14dp"
+                    android:layout_marginBottom="4dp"
+                    android:text="@string/setting_app_info_header"
+                    android:textSize="12sp"
+                    android:textColor="@color/setting_list_header_text_color" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/divider" />
+
+                <LinearLayout
+                    android:id="@+id/app_info_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:paddingLeft="16dp"
+                    android:paddingRight="16dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:clickable="true"
+                    android:background="@color/setting_list_item_bg"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/app_version_info"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:gravity="center_vertical"
+                        android:layout_weight="1"
+                        android:textSize="16sp"
+                        android:textColor="@color/setting_list_item_text_color"
+                        android:background="@android:color/transparent"
+                        android:text="@string/setting_app_version_prefix" />
+
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="0.5dp"
+                    android:background="@color/divider" />
+
+            </LinearLayout>
+            <!-- //*****  앱 정보 *****// -->
+        </RelativeLayout>
+    </ScrollView>
+
+
+    <View
+        android:id="@+id/background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#60000000"
+        android:visibility="gone" />
+
+
+    <LinearLayout
+        android:id="@+id/url_popup"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/spacing_watson_medium"
+        android:elevation="@dimen/elevation_popup"
+        android:background="@color/toast_bg"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/saved_url"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_watson_buttons" />
+
+
+        <EditText
+            android:id="@+id/edit_text_url"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/spacing_watson_medium"
+            android:layout_marginTop="@dimen/spacing_watson_medium"
+            android:maxLines="1"
+            android:background="@drawable/rounded_edittext"
+            style="@style/EditText"
+            android:hint="@string/hint_url"
+            android:textColorHint="@color/grey"
+            android:inputType="textUri"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/spacing_watson_medium"
+            android:animateLayoutChanges="true">
+
+            <Button
+                android:id="@+id/button_cancel"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:layout_marginRight="@dimen/spacing_watson_small"
+                android:background="@color/button_deep_teal"
+                android:text="@string/action_cancel"
+                android:textSize="16sp"
+                android:textColor="@color/white"/>
+
+            <Button
+                android:id="@+id/button_confirm"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="50"
+                android:background="@color/button_deep_teal"
+                android:text="@string/action_ok"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:enabled="false" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

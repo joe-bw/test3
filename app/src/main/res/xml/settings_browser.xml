@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?><!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. -->
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.preference.Preference
+        android:key="@string/pref_key_asr_browser_caption_screen"
+        android:layout="@layout/focus_preference"
+        android:title="@string/setting_subtitle"
+        app:iconSpaceReserved="false" />
+
+    <androidx.preference.Preference
+        android:key="@string/pref_key_asr_browser_add_main_app_screen"
+        android:layout="@layout/focus_preference"
+        android:title="@string/setting_browser_add_main_app"
+        app:iconSpaceReserved="false" />
+
+    <androidx.preference.Preference
+        android:key="@string/pref_key_asr_browser_add_main_device_screen"
+        android:layout="@layout/focus_preference_just_underline"
+        android:title="@string/setting_browser_add_main_device"
+        app:iconSpaceReserved="false" />
+
+    <androidx.preference.Preference
+        android:key="@string/pref_key_asr_browser_search_page_screen"
+        android:layout="@layout/focus_preference"
+        android:title="@string/find_in_page"
+        app:iconSpaceReserved="false" />
+
+    <androidx.preference.SwitchPreferenceCompat
+        android:defaultValue="false"
+        android:key="@string/pref_key_asr_browser_show_pc_screen"
+        android:layout="@layout/focus_preference_no_icon"
+        android:title="@string/setting_browser_show_pc" />
+
+    <androidx.preference.Preference
+        android:key="@string/pref_key_asr_browser_bookmark_screen"
+        android:layout="@layout/focus_preference_just_aboveline"
+        android:title="@string/menu_bookmarks"
+        app:iconSpaceReserved="false" />
+
+    <androidx.preference.Preference
+        android:key="@string/pref_key_asr_browser_other_browser_screen"
+        android:layout="@layout/focus_preference"
+        android:title="@string/menu_open_with_a_browser2"
+        app:iconSpaceReserved="false" />
+
+    <androidx.preference.Preference
+        android:key="@string/pref_key_asr_browser_system_screen"
+        android:layout="@layout/focus_preference"
+        android:title="@string/setting_browser_system_setting"
+        app:iconSpaceReserved="false" />
+
+</androidx.preference.PreferenceScreen>

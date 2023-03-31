@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_settings"
+    android:paddingStart="35dp"
+    android:paddingTop="20dp"
+    android:paddingEnd="20dp"
+    android:paddingBottom="35dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/settings_background"
+        android:elevation="4dp"
+        app:subtitleTextColor="@color/black"
+        app:titleTextColor="@color/black" />
+
+    <!-- //*******************************************************************//-->
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                style="@style/NewEditTextLabelStyle"
+                android:text="@string/setting_asr_auth_url_title" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/NewEditTextBackgroundStyle">
+
+                <EditText
+                    android:id="@+id/asr_auth_url"
+                    android:maxLines="1"
+                    android:inputType="textUri"
+                    style="@style/NewEditTextInputStyle"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                style="@style/NewEditTextLabelStyle"
+                android:text="@string/setting_asr_server_connection_url_title" />
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                style="@style/NewEditTextBackgroundStyle">
+
+                <EditText
+                    android:id="@+id/asr_ws_url"
+                    android:maxLines="1"
+                    android:inputType="textUri"
+                    style="@style/NewEditTextInputStyle"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</RelativeLayout>
